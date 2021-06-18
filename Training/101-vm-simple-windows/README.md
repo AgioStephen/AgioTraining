@@ -1,6 +1,6 @@
-\Download the code from Github
-Open Powershell
-\Install Azure Powershell
+\\Download the code from Github
+\\Open Powershell
+\\Install Azure Powershell
 Install-Module -Name Az -Scope CurrentUser -Repository PSGallery -Force
 connect-azaccount -tenantid {Insert Tenant ID}
 get-AZsubscription
